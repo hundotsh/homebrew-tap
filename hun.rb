@@ -1,24 +1,24 @@
 class Hun < Formula
   desc "Seamless project context switching for developers"
   homepage "https://hun.sh"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sourabhrathourr/hun/releases/download/v0.1.3/hun_darwin_arm64.tar.gz"
-      sha256 "3705b7e1f999899b70223ec95a79b0aad5b076f5c3ff76062aec645fd4fa3b4a"
+      url "https://github.com/sourabhrathourr/hun/releases/download/v0.1.4/hun_darwin_arm64.tar.gz"
+      sha256 "6736135f8a052f7e1cd7a26c5a2338c3ff34a7d9b3db2a3d4d24842883551a37"
     else
-      url "https://github.com/sourabhrathourr/hun/releases/download/v0.1.3/hun_darwin_amd64.tar.gz"
-      sha256 "8a4e1cc3f4d54dbc4be7fac5ba01fa9edcb59382b8573e4e438c457e21ec4427"
+      url "https://github.com/sourabhrathourr/hun/releases/download/v0.1.4/hun_darwin_amd64.tar.gz"
+      sha256 "7e9d663f19d85fe1587f6e108dd5c63d4a1c5358a33c7388bb83a50108dc7606"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/sourabhrathourr/hun/releases/download/v0.1.3/hun_linux_arm64.tar.gz"
-      sha256 "520a1b7992470d42ebea65cfe836bedf41477158b8d7a43b14e8a767d3ebbcdf"
+      url "https://github.com/sourabhrathourr/hun/releases/download/v0.1.4/hun_linux_arm64.tar.gz"
+      sha256 "bfe5fcf986bf880db2afb02112388d609a1979d973387b75880d5ce197233e3b"
     else
-      url "https://github.com/sourabhrathourr/hun/releases/download/v0.1.3/hun_linux_amd64.tar.gz"
-      sha256 "e4accb8260876bcc94be4f66fca306366fc6e44ad353806fb1ccd3160935c07e"
+      url "https://github.com/sourabhrathourr/hun/releases/download/v0.1.4/hun_linux_amd64.tar.gz"
+      sha256 "dcc01c7ef4e097ac764673edfb2aae35868b4870e0c9ea169a32c5160263947d"
     end
   end
 
